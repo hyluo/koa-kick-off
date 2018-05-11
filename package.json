@@ -20,10 +20,7 @@
   },
   "homepage": "https://github.com/hyluo/koa-kick-off#readme",
   "lint-staged": {
-    "src/**/*.{js,jsx,json,css}": [
-      "prettier --single-quote --write",
-      "git add"
-    ]
+    "*.{js,jsx,json,css}": ["prettier --single-quote --write", "git add"]
   },
   "dependencies": {
     "dotenv": "^5.0.1",
