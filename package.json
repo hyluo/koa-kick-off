@@ -1,0 +1,40 @@
+{
+  "name": "koa-kick-off",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "lint-staged",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyluo/koa-kick-off.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyluo/koa-kick-off/issues"
+  },
+  "homepage": "https://github.com/hyluo/koa-kick-off#readme",
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "husky": "^0.14.3",
+    "koa": "^2.5.1",
+    "lint-staged": "^7.1.0",
+    "prettier": "^1.12.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  }
+}
