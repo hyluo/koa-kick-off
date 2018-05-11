@@ -23,6 +23,7 @@
     "*.{js,jsx,json,css}": ["prettier --single-quote --write", "git add"]
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "dotenv": "^5.0.1",
     "husky": "^0.14.3",
     "koa": "^2.5.1",
